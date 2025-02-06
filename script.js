@@ -53,13 +53,7 @@ listcontainer.addEventListener("click", (e) => {
         storeData();
     }
 });
-/* listcontainer.addEventListener("change", (e) => {
-    if (e.target.type === "checkbox") {
-        const label = e.target.nextElementSibling; // Get the associated label
-        label.style.textDecoration = e.target.checked ? "line-through" : "none";
-        storeData(); // Update localStorage on state change
-    }
-}); */
+
 
 /* to store in localstorage */
 function storeData(params) {
